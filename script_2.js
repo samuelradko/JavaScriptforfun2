@@ -1,9 +1,9 @@
 // lesson 27 tasks
-// Task 1 + 3 - Create an input and a button, when the button is pressed, calculate how much is the input value + 10. (I used the /, I could not figure out how to do it with +)
+// Task 1 + 3 - Create an input and a button, when the button is pressed, calculate how much is the input value + 10. 
 
 
 function pop() {
-    let num1 = prompt("Please enter a number and I will divide it by 10");
+    let num1 = prompt("Please enter a number and I will add it up by 10");
     if (Number(num1) > 0) {
         document.getElementById("noice").innerHTML =
           `the answer is  ${Number(num1) + 10}`
